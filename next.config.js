@@ -7,10 +7,10 @@ const isProd = process.env.NODE_ENV = "production";
 
 const repo = 'portfolio';
 const assetPrefix = isProd ? `/${repo}/` : "";
-const basePath = isProd ? `/${repo}/` : "";
+const basePath = isProd ? `/${repo}` : "";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // pageExtensions:["js", "jsx", "md", "mdx", "ts", "tsx"],
+  pageExtensions:["js", "jsx", "md", "mdx", "ts", "tsx"],
   // any configs you need
   basePath: basePath,
   assetPrefix: assetPrefix,
