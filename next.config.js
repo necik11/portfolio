@@ -10,7 +10,7 @@ const assetPrefix = isProd ? `/${repo}/` : "";
 const basePath = isProd ? `/${repo}/` : "";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions:["js", "jsx", "md", "mdx", "ts", "tsx"],
+  // pageExtensions:["js", "jsx", "md", "mdx", "ts", "tsx"],
   // any configs you need
   basePath: basePath,
   assetPrefix: assetPrefix,
